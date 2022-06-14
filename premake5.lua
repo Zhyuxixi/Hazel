@@ -27,7 +27,8 @@ project "Hazel" --项目名称
 
     includedirs--附加包含目录
     {
-        "%{prj.name}/vendor/spdlog/include"
+        "%{prj.name}/vendor/spdlog/include",
+        "%{prj.name}/src"
     }
 
     filter "system:windows"--windows平台的配置
